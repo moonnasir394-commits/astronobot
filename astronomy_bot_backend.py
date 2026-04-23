@@ -6,7 +6,7 @@ app = Flask(__name__, static_folder="static")
 CORS(app)
 
 
-client = Groq(api_key=os.getenv("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"))
+client = Groq(api_key="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")
 
 conversation_history = []
 
